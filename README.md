@@ -1,6 +1,14 @@
-# ♟️ chess-vision
+<div align="center">
 
-A chessboard recognition system that takes an image and outputs a [FEN](https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation) string describing the position.
+<picture>
+      <img src="assets/icons/chess-vision.png" width="200" />
+</picture>
+
+# chess-vision
+
+A **chessboard** recognition system that takes an image and outputs a [FEN](https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation) string describing the position.
+
+</div>
 
 ## ✨ Features
 
@@ -35,8 +43,7 @@ python chess_vision.py recognize --image game.png --weights checkpoints/best_cla
 ### 4. Export to ONNX
 
 ```bash
-python chess_vision.py export --weights checkpoints/best_classifier.pt \
---output chess_classifier.onnx
+python chess_vision.py export --weights checkpoints/best_classifier.pt --output chess_classifier.onnx
 ```
 
 ## ⚙️ CLI Reference
